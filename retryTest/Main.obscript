@@ -3,13 +3,6 @@
   "Variables": [
     {
       "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
-      "VariableName": "ProjectPath",
-      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
-      "VariableValue": "\"Value Provided at Runtime\"",
-      "VariableSource": 0
-    },
-    {
-      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
       "VariableName": "vRetry",
       "VariableType": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "VariableValue": "",
@@ -34,6 +27,13 @@
       "VariableName": "vExcptionMessage",
       "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
       "VariableValue": "",
+      "VariableSource": 0
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptVariable, OpenBots.Core",
+      "VariableName": "ProjectPath",
+      "VariableType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+      "VariableValue": "\"Value Provided at Runtime\"",
       "VariableSource": 0
     }
   ],
@@ -177,6 +177,24 @@
     {
       "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
       "ScriptCommand": {
+        "$type": "OpenBots.Commands.Core.Misc.AddCodeCommentCommand, OpenBots.Commands.Core",
+        "CommandID": "edda1c78-ecb9-45a1-9736-2a3bcbb25440",
+        "CommandName": "AddCodeCommentCommand",
+        "SelectionName": "Comment",
+        "v_IsPrivate": false,
+        "v_IsRemote": false,
+        "v_ErrorHandling": "None",
+        "v_Comment": "Project Starts\r\n",
+        "CommandEnabled": true,
+        "LineNumber": 1,
+        "IsCommented": false,
+        "PauseBeforeExecution": false
+      },
+      "AdditionalScriptCommands": null
+    },
+    {
+      "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+      "ScriptCommand": {
         "$type": "OpenBots.Commands.Core.ErrorHandling.BeginTryCommand, OpenBots.Commands.Core",
         "EndScopeCommand": "EndTryCommand",
         "CommandID": "1aa70cc3-c3ad-4d6d-8ee7-bbe19f203983",
@@ -187,7 +205,7 @@
         "v_ErrorHandling": "None",
         "v_Comment": null,
         "CommandEnabled": true,
-        "LineNumber": 1,
+        "LineNumber": 2,
         "IsCommented": false,
         "PauseBeforeExecution": false
       },
@@ -204,7 +222,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": "Items in this section will be handled if error occurs",
             "CommandEnabled": true,
-            "LineNumber": 2,
+            "LineNumber": 3,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -226,7 +244,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 3,
+            "LineNumber": 4,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -254,7 +272,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 4,
+            "LineNumber": 5,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -276,7 +294,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 5,
+            "LineNumber": 6,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -298,7 +316,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 6,
+            "LineNumber": 7,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -316,7 +334,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": "This section executes if error occurs above",
             "CommandEnabled": true,
-            "LineNumber": 7,
+            "LineNumber": 8,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -341,7 +359,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 8,
+            "LineNumber": 9,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -358,7 +376,7 @@
                 "v_ErrorHandling": "None",
                 "v_Comment": "Items in this section will be retried as long as the condition is not met or an error is thrown",
                 "CommandEnabled": true,
-                "LineNumber": 9,
+                "LineNumber": 10,
                 "IsCommented": false,
                 "PauseBeforeExecution": false
               },
@@ -380,7 +398,7 @@
                 "v_ErrorHandling": "None",
                 "v_Comment": null,
                 "CommandEnabled": true,
-                "LineNumber": 10,
+                "LineNumber": 11,
                 "IsCommented": false,
                 "PauseBeforeExecution": false
               },
@@ -400,7 +418,7 @@
                 "v_ErrorHandling": "None",
                 "v_Comment": null,
                 "CommandEnabled": true,
-                "LineNumber": 11,
+                "LineNumber": 12,
                 "IsCommented": false,
                 "PauseBeforeExecution": false
               },
@@ -423,7 +441,7 @@
                 "v_ErrorHandling": "None",
                 "v_Comment": null,
                 "CommandEnabled": true,
-                "LineNumber": 12,
+                "LineNumber": 13,
                 "IsCommented": false,
                 "PauseBeforeExecution": false
               },
@@ -451,7 +469,27 @@
                 "v_ErrorHandling": "None",
                 "v_Comment": null,
                 "CommandEnabled": true,
-                "LineNumber": 13,
+                "LineNumber": 14,
+                "IsCommented": false,
+                "PauseBeforeExecution": false
+              },
+              "AdditionalScriptCommands": null
+            },
+            {
+              "$type": "OpenBots.Core.Script.ScriptAction, OpenBots.Core",
+              "ScriptCommand": {
+                "$type": "OpenBots.Commands.SystemAutomation.Process.StopProcessCommand, OpenBots.Commands.SystemAutomation",
+                "v_ProgramName": "@\"C:\\Program Files\\Microsoft Office\\root\\Office16\\OUTLOOK.EXE\"",
+                "v_StopOption": "Kill",
+                "CommandID": "5083b877-f51b-4bfd-b97e-510e8981c12e",
+                "CommandName": "StopProcessCommand",
+                "SelectionName": "Stop Process",
+                "v_IsPrivate": false,
+                "v_IsRemote": false,
+                "v_ErrorHandling": "None",
+                "v_Comment": null,
+                "CommandEnabled": true,
+                "LineNumber": 15,
                 "IsCommented": false,
                 "PauseBeforeExecution": false
               },
@@ -473,7 +511,7 @@
                 "v_ErrorHandling": "None",
                 "v_Comment": null,
                 "CommandEnabled": true,
-                "LineNumber": 14,
+                "LineNumber": 16,
                 "IsCommented": false,
                 "PauseBeforeExecution": false
               },
@@ -491,7 +529,7 @@
                 "v_ErrorHandling": "None",
                 "v_Comment": null,
                 "CommandEnabled": true,
-                "LineNumber": 15,
+                "LineNumber": 17,
                 "IsCommented": false,
                 "PauseBeforeExecution": false
               },
@@ -512,7 +550,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 16,
+            "LineNumber": 18,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -534,7 +572,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 17,
+            "LineNumber": 19,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
@@ -552,7 +590,7 @@
             "v_ErrorHandling": "None",
             "v_Comment": null,
             "CommandEnabled": true,
-            "LineNumber": 18,
+            "LineNumber": 20,
             "IsCommented": false,
             "PauseBeforeExecution": false
           },
