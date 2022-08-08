@@ -1,0 +1,35 @@
+{
+  "ProjectID": "65ce4608-b391-4723-a922-ed0b741d0edd",
+  "ProjectName": "retryTest",
+  "ProjectType": "OpenBots",
+  "Main": "Main.obscript",
+  "Version": "1.8.1.0",
+  "ProjectArguments": [],
+  "ProjectDependencies": [
+    {
+      "Name": "OpenBots.Commands.Core",
+      "Version": "1.8.1",
+      "PackageHash": "OHjvCpsODgBa6x3Ubh+6Fyxt7srMVOLpmGMnVOnrPL4EBl7vWIikSSCFqSOq04ElPbt8VCNlq1qmSxhbJBWHxA=="
+    },
+    {
+      "Name": "OpenBots.Commands.DataManipulation",
+      "Version": "1.8.1",
+      "PackageHash": "huLVpqm1D3904k45k/8eQ5oEtYiCvQlIbFKO/zwXqTs1uoNzVuqTiTnu57lY0RDrKMD4B5zRU2p9nh1UtodYUA=="
+    },
+    {
+      "Name": "OpenBots.Commands.Microsoft",
+      "Version": "1.8.1",
+      "PackageHash": "wb2l7khc7cWWhDnt392ZFAwQF9devVTfWy0INh1GAhugq+aMhFnCij7qq3tW1dkSqd+LDVq2VvTr/h3ojoo8KQ=="
+    },
+    {
+      "Name": "OpenBots.Commands.SystemAutomation",
+      "Version": "1.8.1",
+      "PackageHash": "dmZI1zS55/yoxejkAwqCFP7bLoc3psrGvhaOVWvNvCwgZ+KgSC+qlfHC3MW2BEwu/iSK7zXWoGw3pGdXhMAmYA=="
+    },
+    {
+      "Name": "OpenBots.Commands.UIAutomation",
+      "Version": "1.8.1",
+      "PackageHash": "4qWam9B1uvnp2O2M+hCLLCK8A8MqAKU3XYCFDjCkEswTHeTnYN1jUjEat+nSeG7W0RroH2VQqi8fPTPNLSgXlA=="
+    }
+  ]
+}
